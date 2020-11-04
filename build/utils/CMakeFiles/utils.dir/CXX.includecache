@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../utils/include/find_files.h
+filesystem
+-
+string
+-
+vector
+-
+
+/Users/biomind/utils/utils/src/find_files.cpp
+find_files.h
+/Users/biomind/utils/utils/src/find_files.h
+
