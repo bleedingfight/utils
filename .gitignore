@@ -1,13 +1,12 @@
-# Prerequisites
-*.d
-cmake-build-debug/*
-build/*
+__pycache__/
+build
+.idea
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-
+cmake-build-debug
 # Precompiled Headers
 *.gch
 *.pch
@@ -19,7 +18,6 @@ build/*
 
 # Fortran module files
 *.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
