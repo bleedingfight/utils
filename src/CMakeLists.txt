@@ -1,0 +1,3 @@
+file(GLOB UTILS_SRC ${CMAKE_CURRENT_LIST_DIR}/*.cpp)
+file(GLOB UTILS_HEAD ${CMAKE_CURRENT_LIST_DIR}/*.h)
+add_library(utils SHARED ${UTILS_SRC})
